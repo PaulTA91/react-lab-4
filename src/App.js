@@ -1,10 +1,11 @@
 import React from "react";
-import FetchNutrition from "./components/FetchNutrition";
+import Search from "./components/Search";
 
 function App() {
   return (
     <>
-      <FetchNutrition />
+      <h2>Search nutritional data</h2>
+      <Search />
     </>
   );
 }
