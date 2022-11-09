@@ -1,11 +1,13 @@
 import React from "react";
-import Search from "./components/Search";
+//import Search from "./components/Search";
+import DisplayFoodItem from "./components/DisplayFoodItem";
+import "./style.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <>
-      <h2>Search nutritional data</h2>
-      <Search />
+      <DisplayFoodItem />
     </>
   );
 }
