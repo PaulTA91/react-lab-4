@@ -2,8 +2,8 @@ import React from "react";
 
 const Nutrition = ({ item }) => {
   return (
-    <div>
-      <h3>Food : {item.name}</h3>
+    <>
+      <h2>Food : {item.name}</h2>
       <ul style={{ listStyle: "none" }}>
         <li>Serving Size: {item.serving_size_g}g</li>
         <li>Calories per serving: {item.calories}g</li>
@@ -17,7 +17,7 @@ const Nutrition = ({ item }) => {
         <li>Potassium per serving: {item.potassium_mg}mg</li>
         <li>Cholesterol per serving: {item.cholesterol_mg}mg</li>
       </ul>
-    </div>
+    </>
   );
 };
 
